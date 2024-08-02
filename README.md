@@ -4,32 +4,6 @@
 
 The Heart Disease Analysis project is designed to analyze and predict heart diseases using Java. This project encompasses various stages including data preprocessing, exploratory data analysis (EDA), visualization, and machine learning model deployment.
 
-## Project Structure
-
-The project is organized as follows:
-
-HeartDiseaseAnalysis/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── com/
-│ │ │ │ ├── heartdisease/
-│ │ │ │ │ ├── Main.java
-│ │ │ │ │ ├── data/
-│ │ │ │ │ │ ├── HeartDiseaseData.java
-│ │ │ │ │ │ ├── DataPreprocessing.java
-│ │ │ │ │ │ ├── HeartDiseaseRecord.java
-│ │ │ │ │ ├── eda/
-│ │ │ │ │ │ ├── EDA.java
-│ │ │ │ │ ├── visualization/
-│ │ │ │ │ │ ├── Visualization.java
-│ │ │ │ │ ├── ml/
-│ │ │ │ │ │ ├── MLModel.java
-│ │ │ │ │ │ ├── ModelDeployment.java
-│ └── resources/
-│ ├── heart_disease_data.csv
-└── pom.xml
-
 
 
 ## Features
@@ -62,17 +36,14 @@ HeartDiseaseAnalysis/
 
 2. Navigate to the project directory:
 
-'''sh
    cd heart-disease-analysis
 
 3. Build the project using Maven:
 
-sh
 Copy code
 mvn clean install
 Running the Project
 Run the main application:
-sh
 Copy code
 mvn exec:java -Dexec.mainClass="com.heartdisease.Main"
 
