@@ -32,7 +32,7 @@ The Heart Disease Analysis project is designed to analyze and predict heart dise
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/heart-disease-analysis.git
+   git clone https://github.com/AdityaSrivastavDS/Heart-Disease-Analysis-Java
 
 2. Navigate to the project directory:
 
